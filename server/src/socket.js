@@ -10,15 +10,15 @@ function Socket(io) {
     // Cuando se cree una nueva tarea
     socket.on("client:new_task", (data) => {
       // La envía de nuevo para que se actualice
-      socket.emit("server:new_task", data);
+      io.emit("server:new_task", data);
     });
 
     socket.on("client:delete_task", (data) => {
-      socket.emit("server:delete_task", data);
+      io.emit("server:delete_task", data);
     });
 
     socket.on("client:update_task", (data) => {
-      socket.emit("server:update_task", data);
+      io.emit("server:update_task", data);
     });
   });
 }
