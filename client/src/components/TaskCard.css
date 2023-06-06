@@ -1,0 +1,16 @@
+.task_card {
+  width: 18rem;
+  border-radius: 10px;
+}
+
+.task_card > .card-header,
+.task_card > .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task_card > .card-body > .btn-group {
+  width: 100%;
+  border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+.tasks_list {
+  height: 100%;
+  max-width: 320px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.tasks_list > .container {
+  display: flex;
+  gap: 15px;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.tasks_list > .container > .alert {
+  border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.task_form {
+  border-radius: 10px;
+  padding: 20px 20px;
+  border: 1px solid #0000002d;
+  background-color: #21252908;
+}
+
+.task_form > button {
+  width: 100%;
+  margin-top: 20px;
+}
